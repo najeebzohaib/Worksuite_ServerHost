@@ -1,0 +1,84 @@
+﻿body {
+font-family: "Lucida Grande",sans-serif !important;
+}
+
+.navbar {
+	background-color: #eeeeee;
+	border: 0;
+	border-top:5px black solid;
+	height:40px;
+	min-height: 40px;
+}
+
+.navbar-header a{
+	display:none;
+}
+
+.navbar-header:after {
+	margin:7px 0 0 12px;
+	padding:3px;
+	content: "Workingtimesolutions";
+	background-color: white;
+	border:solid 1px #aaaaaa;
+	font-size:12pt;
+	line-height:1;
+		letter-spacing: 1pt;
+}
+
+.panel-default {
+	margin-top: 60px;
+	background-color: #f9d59c;
+    border: 1px solid #f5c06b;
+    font-size: 10pt;
+	border-radius: 0;
+}
+
+.page-header{
+	display:none;
+}
+
+.panel-heading{
+	background-color: #f9d59c !important;
+	border:0;
+}
+.panel-heading:after {
+	content: "Login to New WORK Suite";
+	font-size:14pt;
+}
+
+.panel-title {
+	display:none;	
+}
+
+.form-control {
+	border: 1px solid #ef9608;
+	border-radius: 0;
+	padding:3px;
+	height:24px;
+}
+
+.login-remember {
+	padding-left:0 !important;
+}
+
+.login-remember:after {
+	content: "Remember";
+	font-weight:700;
+}
+
+.login-remember strong {
+	display: none;
+}
+
+.btn-primary {
+	color: #FFF;
+	font-size: 10pt;
+	text-shadow: 1px 1px 0px rgba(23, 6, 146, 0.5);
+	border: 1px solid #170692;
+	padding: 5px;
+	letter-spacing: -0.3px;
+	text-decoration: none;
+	background: transparent linear-gradient(to bottom, #746ABE 20%, #170692 100%) repeat scroll 0% 0%;
+	margin: 0px 6px 12px 0px;
+	border-radius: 0;
+}
